@@ -5,6 +5,10 @@ let name = 'Hulk';
 // let totalScore = score + bonus;
 // console.log(totalScore);
 
+let hulk = 'Bruce Banner';
+hulk = 'Juice janner'
+console.log(hulk);
+
 let score = 108;
 let bonus = 20;
 // let totalScore = score + bonus;
