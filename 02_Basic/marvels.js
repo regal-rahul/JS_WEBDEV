@@ -1,9 +1,25 @@
-// datatype - Array
+// 
 
-const superHeroes = ['Iron Man', 'Spiderman', 'Hulk', 'Capt. America'];
 
-console.log(superHeroes);
-console.log(superHeroes[0]);
-console.log(superHeroes[superHeroes.length - 1]);
+const numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six'];
 
-console.log(`Total superheroes are ${superHeroes.length - 1}`);
+// numbers[2] = 'SOMETHING';
+// console.log(numbers);
+
+//start
+// console.log(numbers.shift());
+// console.log(numbers);
+
+// numbers.unshift('SOMETHING');
+// console.log(numbers);
+
+//end
+// console.log(numbers.pop());
+// console.log(numbers);
+
+// numbers.push('SOMETHING');
+// console.log(numbers);
+
+// middle
+numbers.splice(2, 2, 'SOMETHING');
+console.log(numbers);
