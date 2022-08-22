@@ -33,5 +33,17 @@ users.set("sam", sam);
 //   console.log(value);
 // }
 for (const [key, value] of users.entries()) {
-  console.log(`${key} = ${value.name}`);
+  //   console.log(`${key} = ${value.name}`);
 }
+
+// users.forEach((value, key) => console.log(`${key} = ${value.name}`));
+
+var arrofArr = [
+  ["one", "1"],
+  ["two", "2"],
+  ["three", "3"],
+];
+
+var newMap = new Map(arrofArr);
+
+console.log(newMap);
