@@ -42,5 +42,20 @@ const thingsDone = todos.filter((todo) => todo.isDone === true);
 const notDone = todos.filter((todo) => todo.isDone === false);
 
 for (let todo of notDone) {
-    console.log(todo.title);
+    // console.log(todo.title);
 }
+
+
+const cameras = {
+    price: 50000,
+    weight: 2000,
+    brand: "NIKON",
+    myDes: function () {
+        return `This ${this.brand} camera is ${this.weight} grams and costs ${this.price} rupees.`
+    }
+}
+
+console.log(cameras.myDes());
+
+// const func = () => {key: 'value'}; //undefined
+// const func = () => ({key: 'value'}); // a () would help in redux.
