@@ -6,15 +6,15 @@
 const newTodos = [
     {
         title: 'Buy Bread',
-        idDone: false
+        isDone: false
     },
     {
         title: 'Go to Gym',
-        idDone: false
+        isDone: false
     },
     {
         title: 'Practice Code',
-        idDone: true
+        isDone: true
     }
 ];
 
