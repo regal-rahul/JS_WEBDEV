@@ -11,3 +11,29 @@ function myValidation() {
         myPara.textContent = 'Your input is: ' + myValue;
     }
 }
+
+
+// form validation
+
+document.querySelector('.bigForm').addEventListener('submit', (e) => {
+
+    const passFirst = document.getElementById('passOne').value;
+    // console.log(passFirst);
+    const passSecond = document.getElementById('passTwo').value;
+
+    if (passFirst === passSecond) {
+        e.preventDefault();
+        console.log(e.target.username.value);
+        e.target.username.value = '';
+        e.target.email.value = '';
+        e.target.password.value = '';
+        alert('Successfully submitted the form.')
+    } else {
+        e.preventDefault();
+        alert('Password does not match');
+        console.log('Form not submitted');
+    }
+
+    
+    
+})
