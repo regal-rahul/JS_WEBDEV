@@ -24,3 +24,9 @@ myButton.addEventListener('click', (e) => {
     console.log(e);
     e.target.textContent = 'Clicked';
 })
+
+// input form tracker
+
+document.querySelector('#myForm').addEventListener('input', (e) => {
+    console.log(e);
+})
